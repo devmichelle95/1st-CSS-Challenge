@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="div-dad">
+        <h1 class="registration"> Cadastro </h1>
+        <form action="test.php" method="GET">
+            <label for="name">
+                Nome:
+            </label>
+            <input type="text" id="name">
+            <label for="email">
+                E-mail:
+            </label>
+            <input type="email">
+            <label for="age">
+                Idade:
+            </label>
+            <input type="number" minlength="12">
+            <label for="date">
+                Data de Nascimento:
+            </label>
+            <input id="id" type="date" type="text" max="2009-01-01" value="dd-mm-yyyy">
+            <label for="check box">
+                Onde você possui conta:
+            </label>
+            <input type="checkbox" class="checkbox"> Instagram
+            <input type="checkbox"> Facebook
+            <input type="checkbox" class="checkbox">Youtube
+            <label>
+                Sexo:
+            </label>
+            <input type="radio" id="Masculino" name="sex" value="Masculino">Masculino
+            <input type="radio" id="Feminino" name="sex" value="Feminino"> Feminino
+            <label>
+                Cor dos Olhos:
+            </label>
+            <input type="color" value="#B0E0E6">
+            <label>
+                Biografia:
+            </label>
+            <textarea></textarea>
+            <form action="" method="GET">
+                <label>
+                    Foto de Perfil:
+                </label>
+                <input class="button-profile"placeholder= "file" type="file" accept="JPEG">
+            </form>
+            <label>
+                Telefone:
+            </label>
+            <input type="number" inputmode="numeric">
+            <label>
+                Link do perfil do Facebok:
+            </label>
+            <input type="url">
+            <label>
+                Senha:
+            </label>
+            <input class="password" type="password" minlength="6" maxlength="8">         
+            <button class="reset-button" name="Reset" type="reset" value="meu-botao"> Limpar </button>
+            <button class="reset-button" name="Submit" type="submit" value="submit">Enviar Dados</button>
+        </form>
+    </div>
+</body>
+
+</html>

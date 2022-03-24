@@ -1,0 +1,51 @@
+#div-dad {border: 10px groove	#48D1CC;
+    margin: 5px 5px;
+    padding: 0px 100px 125px 70px;
+    background-color: #E6E6FA;
+   }
+
+button {margin: 40px;
+    width: 75px;
+    height: 40px;
+    cursor: pointer;
+    float: left;
+    font-family:'Nunito', sans-serif; ;
+}
+button:hover {background: #7FFFD4;
+           border: 2px dotted #000080;
+           border-radius: 200px;
+           margin: 60px;
+           width: 90px;
+           height: 60px;
+           }
+input {border: 3px solid #D8BFD8;  
+}
+button-profile {font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    cursor: pointer;
+}
+textarea {
+    border: 3px solid #d8bfd8;
+}
+html {font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px; 
+    color: #48D1CC; 
+} 
+label {line-height: 30px;
+    display: block;
+}
+.registration {color: #8B008B; 
+    font-size: 80px;
+    text-shadow: 1px 7px 10px #4B0082; 
+    text-align: center;
+    margin-top: 0px;
+    }
+.buttons {
+    display:inline-block
+}
+.password {
+ display:block;      
+}   
